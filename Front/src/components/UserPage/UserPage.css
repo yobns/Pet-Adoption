@@ -1,0 +1,43 @@
+.userPageContainer {
+    min-height: 100vh;
+}
+
+.userCard {
+    background: linear-gradient(145deg, #f7f7f78c, #f9dcc5);
+    box-shadow: 41px 41px 39px #f2e4d9, -41px -41px 39px #fffcef;
+    border: 1px solid lightgrey;
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.separatorUserPage {
+    border-top: 1px solid #ccc;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* USER LIST CSS  */
+.userList {
+    text-align: left;
+    background-color: rgba(211, 211, 211, 0.515);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: default;
+}
+
+.userListName {
+    text-align: left;
+    color: grey;
+    font-size: xx-large;
+    cursor: default;
+}
+
+@media (max-width: 768px) {
+   .userCard {
+    width: 80%;
+   }
+}

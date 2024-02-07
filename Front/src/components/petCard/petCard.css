@@ -1,0 +1,60 @@
+.pet-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.pet-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.pet-info {
+    padding: 10px;
+}
+
+.pet-name {
+    margin: 0;
+    color: #333;
+}
+
+.pet-type {
+    margin: 0;
+    color: #666;
+}
+
+.pet-bio {
+    margin: 0;
+    color: #999;
+    font-size: 14px;
+}
+
+.pet-actions {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-view,
+.btn-adopt {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-view {
+    background-color: #F8A97A;
+    color: white;
+}.btn-view:hover {
+    background-color: grey;
+}
+
+.btn-adopt {
+    background-color: #1caf1ca1;
+    color: white;
+}

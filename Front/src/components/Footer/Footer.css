@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .list-unstyled {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .linkStyle {
+        display: none;
+    }
+}

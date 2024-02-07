@@ -1,0 +1,36 @@
+.AddPet {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 41px 41px 39px #f2e4d9, -41px -41px 39px #fffcef;
+    background: linear-gradient(145deg, #f7f7f78c, #f9dcc5);
+}
+
+textarea {
+    resize: none;
+}
+
+.button {
+    background-color: #F8A97A;
+    border: none;
+}
+
+.button:hover {
+    background-color: grey;
+    border: none;
+}
+
+.required-star {
+    color: red;
+    margin-left: 4px;
+}

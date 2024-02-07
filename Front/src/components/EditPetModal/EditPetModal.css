@@ -1,0 +1,20 @@
+.editModalTitle {
+    font-weight: 550;
+}
+
+.editModalLabel {
+    color: #F8A97A;
+    font-weight: 550;
+}
+
+.editModalButton {
+    background-color: #F8A97A;
+    margin: auto;
+    border: none;
+}
+
+.editModalButton:hover {
+    background-color: #f8a87a9b;
+    margin: auto;
+    border: none;
+}

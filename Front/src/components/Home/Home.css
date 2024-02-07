@@ -1,0 +1,107 @@
+.firsth3 {
+    color: grey;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 700px;
+    box-shadow: 41px 41px 39px #f2e4d9, -41px -41px 39px #fffcef;
+    background: linear-gradient(145deg, #f7f7f78c, #f9dcc5);
+    border: 1px solid #F8A97A;
+}
+
+.button {
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+}
+
+.button:hover {
+    background-color: #F8A97A;
+    border: none;
+}
+
+.name {
+    color: #F8A97A;
+}
+
+.signup {
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+.text {
+    color: grey;
+}
+
+
+.separator {
+    border-top: 1px solid #ccc;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.secondh3 {
+    margin-top: 6rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.icon-circle {
+    text-align: center;
+}
+
+.icon-circle a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 20px;
+    align-items: center;
+}
+
+.icon img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .firsth3 {
+        width: 95%;
+        margin: auto;
+    }
+
+    .card-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .separator {
+        width: 70%;
+    }
+}

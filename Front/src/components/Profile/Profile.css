@@ -1,0 +1,54 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 41px 41px 39px #f2e4d9, -41px -41px 39px #fffcef;
+    background: linear-gradient(145deg, #f7f7f78c, #f9dcc5);
+}
+
+.titleMy {
+    font-style: italic;
+    font-family: fantasy;
+    font-size: larger;
+    margin-right: 5px;
+    color: #F8A97A;
+}
+
+textarea {
+    resize: none;
+}
+
+.separator {
+    border-top: 1px solid #ccc;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonLogout {
+    background-color: #F8A97A;
+    border: none;
+}
+
+.buttonLogout:hover {
+    border: none;
+}
+
+.required-star {
+    color: red;
+    margin-left: 4px;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 80%;
+        margin: auto;
+    }
+}
